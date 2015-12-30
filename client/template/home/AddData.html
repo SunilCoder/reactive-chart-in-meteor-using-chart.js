@@ -1,0 +1,27 @@
+<template name="addData">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-3">
+            <div class="well">
+                <div class="form-group">
+                    <label class="text-success">Choose Graph Data</label>
+                    <select class="form-control" id="selectGraphValue">
+                        {{#each getValue}}
+                            <option value="{{value}}">{{value}}</option>
+                        {{/each}}
+                    </select>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary" id="AddData">Add Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+                <div class="well">
+                    <canvas  width="600" height="400" style="" id="GraphId"></canvas>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</template>
