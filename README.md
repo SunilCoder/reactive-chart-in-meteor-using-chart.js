@@ -2,3 +2,4 @@
 reactive line chart 
 
 A simple demo of an reactive line chart using meteor and chart.js.
+http://reactive-line-chart.meteor.com/
